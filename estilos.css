@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #241744;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ... (tus estilos existentes) ... */
+
+.contenedor .pelicula {
+    position: relative;
+    text-align: center;
+    background: #c0cbe0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.contenedor .pelicula:hover {
+    transform: scale(1.05);
+}
+
+.contenedor .pelicula .poster {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.contenedor .pelicula .titulo {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contenedor .pelicula a {
+    cursor: pointer;
+}
+
+.paginacion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paginacion button {
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #241744;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+.paginacion button:hover {
+    background: #137c32;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#btnBuscar {
+    cursor: pointer;
+    border: inset;
+    padding: 10px 20px;
+    background: #137c32;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+#btnBuscar:hover {
+    background: #0e5926;
+}
+
+.menu-navegacion {
+    display: flex;
+    align-items: center;
+}
+
+#btnFavoritos {
+    cursor: pointer;
+    background-color: #2b3bcc;
+    color: #fff;
+    border: groove;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+#btnFavoritos:hover {
+    background-color: #337be6;
+}
+
+.contenedor-favoritos {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.actions button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #120fac;
+    border: inset;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.pelicula {
+    cursor: pointer;
+  }
+
+footer {
+    color:  #241744;
+    background-color: #241744;
+    justify-content: space-around;
+    height: 150px;
+}
+
+#pieizq{
+    color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#pieder {
+    color: #ffffff;
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    text-align: center;
+}

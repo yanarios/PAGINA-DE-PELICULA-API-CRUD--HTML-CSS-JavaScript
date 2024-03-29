@@ -1,0 +1,216 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #241744;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volver {
+    font-size: 20px;
+    background-color: #241744;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.volver:hover {
+    background-color: #4927a0;
+}
+
+/* Estilos para la sección principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botoncito {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botoncito button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #8a8989;
+}
+
+.botoncito button.active {
+    background-color: #2731be; /* Puedes ajustar el color según tu preferencia */
+    color: #ffffff; /* Puedes ajustar el color del texto según tu preferencia */
+    border: inset;
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+    text-align: center;
+}
+
+/* Estilos para botones */
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#agregar {
+    background-color: #007bff;
+    border: groove;
+}
+
+#editar {
+    background-color: #28a745;
+    border: groove;
+}
+
+#cancelar {
+    background-color: #dc3545;
+    border: groove;
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Estilos para el contenedor de elementos */
+.contenedor {
+    display: block;
+    margin-top: 20px;
+    overflow: hidden; /* Para evitar que los elementos desborden el contenedor */
+}
+
+/* Estilos para la imagen de la película */
+.contenedor img {
+    width: 150px; /* Ancho fijo para la portada */
+    height: auto;
+    border-radius: 4px;
+    margin-right: 10px; /* Espacio entre la portada y la información */
+  }
+.pelicula {
+    /* Agregar estilos para espaciar cada película verticalmente */
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.texto {
+    flex-grow: 1; /* Hace que ocupe el espacio disponible restante */
+}
+  
+/* Estilos para la sección de paginación */
+.paginacion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paginacion button {
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #241744;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+.paginacion button:hover {
+    background: #137c32;
+}
+
+
+.eliminar {
+    background-color: #f3263b;
+    color: #fff;
+    border: groove;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.eliminar:hover {
+    background-color: #bb2d3b;
+}
+
+.editar {
+    background-color: yellow;
+    border: groove;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.editar:hover {
+    background-color: rgb(211, 211, 23);
+}
+
+
+footer {
+    color: #241744;
+    background-color: #fff;
+    justify-content: space-around;
+    height: 150px;
+    border-top: 1px solid #241744;
+}
+
+#pieizq {
+    color: #241744;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#pieder {
+    color: #241744;
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    text-align: center;
+}

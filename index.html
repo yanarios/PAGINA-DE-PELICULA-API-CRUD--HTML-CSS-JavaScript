@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <title>MiCineFavorito</title>
+</head>
+<body>
+    <header>
+        <h1>MiCineFavorito</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar película...">
+            <button id="btnBuscar">Buscar</button>
+        </div>
+
+        <div class="menu-navegacion">
+            <a href="favoritos.html"><button id="btnFavoritos">
+                Personalizar peliculas
+            </button></a>
+        </div>
+    </header>
+    <div id="contenedor" class="contenedor"></div>
+
+    <div class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+    </div>
+    <br><br>
+    <footer>
+        <div id="pieizq">
+            <p>MiCineFavorito</p>
+        </div>
+        <div id="pieder">
+            <h3>Seguime en:</h3>
+            <a href="https://twitter.com/YanaRios08"><img src="twitter.png" alt="logo-twitter"></a>
+            <a href="https://www.instagram.com/riosyana/"><img src="instagram.png" alt="logo-instagram"></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

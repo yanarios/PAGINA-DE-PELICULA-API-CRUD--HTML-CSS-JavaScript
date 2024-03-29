@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleoperaciones.css">
+    <title>Perzonalizar peliculas</title>
+    <body>
+        <header>
+            <h1>MiCineFavorito</h1>
+        </header>
+        <a href="index.html"><button class="volver">Volver atras</button></a>
+    
+        <main>
+            <div class="botoncito">
+                <button id="btnTodas">Todas las Películas</button>
+                <button id="btnEnCartelera" class="enCartelera">En Cartelera Hoy</button>
+                <button id="btnProximamente">Programas de TV</button>
+            </div>
+            <br>
+            <label for="titulo">TÍTULO</label>
+            <input type="text" id="titulo" placeholder="Ingrese un título">
+    
+            <label for="portada">PORTADA</label>
+            <input type="url" id="portada" placeholder="Portada de la película">
+    
+            <label for="descripcion">DESCRIPCIÓN</label>
+            <input type="text" id="descripcion" placeholder="Ingrese una descripción">
+    
+            <div class="button-container">
+                <button id="agregar" class="btn" style="background-color: #007bff;">Agregar</button>
+                <button id="editar" class="btn" style="background-color: #28a745;">Actualizar</button>
+                <button id="cancelar" class="btn" style="background-color: #dc3545;" hidden>Cancelar</button>
+            </div>
+    
+            <hr>
+            <div class="contenedor" id="contenedor"></div>
+        </main>
+    
+        <div class="paginacion">
+            <button id="btnAnterior">Anterior</button>
+            <button id="btnSiguiente">Siguiente</button>
+        </div>
+        <br><br>
+        <footer>
+            <div id="pieizq">
+                <p>MiCineFavorito</p>
+            </div>
+            <div id="pieder">
+                <h3>Seguime en:</h3>
+                <a href="https://twitter.com/YanaRios08"><img src="twitter.png" alt="logo-twitter"></a>
+                <a href="https://www.instagram.com/riosyana/"><img src="instagram.png" alt="logo-instagram"></a>
+            </div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="operaciones.js"></script>
+    </body>
+    
+    </html>
