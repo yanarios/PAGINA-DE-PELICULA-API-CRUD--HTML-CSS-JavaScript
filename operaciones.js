@@ -84,6 +84,7 @@ const editarPelicula = (botonEditar) => {
     // Preenchando el formulario con la información actual
     document.getElementById('titulo').value = titulo;
     document.getElementById('portada').value = portada;
+    
     document.getElementById('descripcion').value = descripcion;
 
     // Cambiar el botón "Agregar" a "Modificar"
